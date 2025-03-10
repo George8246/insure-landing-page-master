@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Frontend Mentor | Insure landing page</title>
+
+    <style>
+      .attribution {
+        margin-top: 30px;
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="navbar-insure">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-nav">
+        <a class="navbar-brand" href=""><img src="images/logo.png" alt="insure-logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#insure-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="insure-navbar">
+          <ul class="nav-down navbar-nav ms-auto">
+            <li id="first-nav-item" class="nav-item"><a class="nav-link pe-4 VLG" href="">How we work</a></li>
+            <li class="nav-item"><a class="nav-link pe-4 VLG" href="">Blog</a></li>
+            <li class="nav-item"><a class="nav-link pe-4 VLG" href="">Account</a></li>
+            <li class="nav-item">
+              <div type="button" id="nav-insure-btn" class="btn btn-outline-dark insure-btn" href="">View plans</div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section id="intro" class="colored">
+      <div class="row container-fluid intro">
+        <div class="ILD col-lg-6 order-lg-1 order-md-2 order-sm-2">
+          <!-- main head -->
+          <div class="IRD col-lg-6 order-lg-2 order-md-1 order-sm-1"><img id="secondary-intro-image" src="images/image-intro-desktop.jpg" alt="intro-img" /></div>
+          <hr class="half-hr" />
+          <h1 class="main-header">
+            <span id="high">Humanizing</span><br />
+            <span id="low">your insurance.</span>
+          </h1>
+
+          <p class="VLG">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+
+          <div type="button" class="btn btn-outline-light insure-btn mb-5">View plans</div>
+        </div>
+
+        <!-- main image -->
+        <div class="IRD col-lg-6 order-lg-2 order-md-1 order-sm-1"><img id="main-intro-image" src="images/image-intro-desktop.jpg" alt="intro-img" /></div>
+      </div>
+      <img id="intro-background" src="images/bg-pattern-intro-right-desktop.png" alt="" />
+      <img id="intro-to-features-image" src="images/bg-pattern-intro-right-mobile.png" alt="" />
+    </section>
+
+    <section id="features" class="not-colors container-fluid">
+      <img id="bg-f" src="images/bg-pattern-intro-left-desktop.png" alt="bg-pattern-intro-left-desktop" />
+      <hr class="half-hr" />
+      <h1 class="main-header VDV">We’re different</h1>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="main-feature-img" src="images/icon-snappy-process.png" alt="snappy-process" />
+          <h3 class="VDV">Snappy Process</h3>
+
+          <p class="DGV">Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img class="main-feature-img" src="images/icon-affordable-prices.png" alt="affordable-prices" />
+          <h3 class="VDV">Affordable Prices</h3>
+
+          <p class="DGV">We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <img class="main-feature-img" src="images/icon-people-first.png" alt="people-first" />
+          <h3 class="VDV">People First</h3>
+
+          <p class="DGV">Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container-fluid">
+      <div id="about-box" class="row colored">
+        <div class="col-lg-8 col-md-6">
+          <h1>Find out more<br />about how we work</h1>
+        </div>
+        <div id="about-button" class="col-lg-4 col-md-6">
+          <div type="button" class="btn btn-outline-light insure-btn">How we work</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="container-fluid">
+      <div class="footer-logo-div">
+        <a href="#navbar-insure"><img id="footer-logo" src="images/logo.png" alt="insure-logo" /></a>
+        <div class="ms-auto DGV"><i class="fab fa-facebook-square"></i><i class="fab fa-twitter"></i><i class="fab fa-pinterest"></i><i class="fab fa-instagram" style="margin: 0"></i></div>
+      </div>
+      <hr />
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <ul>
+              <li class="footer-headers DGV">OUR COMPANY</li>
+              <li class="p-footer VDV">HOW WE WORK</li>
+              <li class="p-footer VDV">WHY INSURE?</li>
+              <li class="p-footer VDV">VIEW PLANS</li>
+              <li class="p-footer VDV last-li">REVIEWS</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <ul>
+              <li class="footer-headers DGV">HELP ME</li>
+              <li class="p-footer VDV">FAQ</li>
+              <li class="p-footer VDV">TERMS OF USE</li>
+              <li class="p-footer VDV">PRIVACY POLICY</li>
+              <li class="p-footer VDV last-li">COOKIES</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <ul>
+              <li class="footer-headers DGV">CONTACT</li>
+              <li class="p-footer VDV">SALES</li>
+              <li class="p-footer VDV">SUPPORT</li>
+              <li class="p-footer VDV last-li">LIVE CHAT</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <ul>
+              <li class="footer-headers DGV">OTHERS</li>
+              <li class="p-footer VDV">CAREERS</li>
+              <li class="p-footer VDV">PRESS</li>
+              <li class="p-footer VDV last-li">LICENSES</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">George Essam</a>.</div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
